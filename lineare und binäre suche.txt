@@ -1,0 +1,38 @@
+Lineare Suche
+    Suche Karte nach(GesuchterKartenWert)
+    Wiederhole(länge Liste)
+        If DreheKarteUm(pos) == GesuchterKartenWert{
+        Break
+        }
+        pos +=1
+        if pos > length(list)
+            return Error
+        
+        
+    
+Binäre Suche
+SucheNachKarte(Val, list)
+repeates = 0
+while(log2(Length(list)) or repeates < legth(list)){
+    repeates += 1
+    List_temp = list
+    Position = roundup(Length(List_temp) / 2)
+    card_val = DreheKarteUm(position)
+    if card_val > Val
+        deleteItemsOfList(position-length(List_temp))
+    else if card_val < Val
+        deleteItemsOfList(0-position)
+    if card_val = Val
+        return true
+        break
+}
+return false
+
+
+DreheKarteUm(Position)
+if position > 0{
+    loop(position)
+        Move Left
+    Return current_card_value
+
+}
