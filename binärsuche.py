@@ -1,8 +1,5 @@
 import math as m
-from operator import truediv
-from random import sample
 from re import search
-from turtle import pos, position
 # Binäre Suche
 # SucheNachKarte(Val, list)
 # repeates = 0
@@ -21,30 +18,32 @@ from turtle import pos, position
 # }
 # return False
 
-samplelist = []
+samplelist = [10,20,30,40,60,70,80,90,100,110,120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260]
 
-def SucheNachKarte(SearchVal, Liste):
+def SucheNachKarte(searching, Liste):
+    print(searching)
     list_temp = samplelist
     repeates = 0
     # print((m.log2(len(samplelist))))
     print(m.ceil(m.log2(len(samplelist))))
-    while(repeates < 3 + m.ceil(m.log2(len(samplelist)))):
+    while(True):
         Positions = m.ceil(len(list_temp) / 2)
-        print("TempList", list_temp)
-        card_val = list_temp[Positions]
-        print("CardValue", card_val)
-        if card_val > SearchVal:
-            del list_temp[Positions:]
-            print("deleting top half")
-        elif card_val < SearchVal:
+        # print("TempList", list_temp, "position", Positions)
+        card_val = list_temp[Positions-1]
+        # print("CardValue", card_val, "SearchVal", searchval)
+        if card_val < searching:
+            list_temp = list_temp[Positions:]
+            # print("deleting bottom half")
+        if card_val > searching:
             del list_temp[-Positions:]
-            print("deleting top half")
-        if card_val == SearchVal:
+            # print("deleting top half")
+        if card_val == searching:
             return True
             break
-        repeates += 1
-        print("repeats", repeates)
+        if len(list_temp) == 0:
+            break
+        print(list_temp)
     return False
 
-
-print(SucheNachKarte(20, 1))
+searching = input("Nach was willst du suchen?")
+print(SucheNachKarte(int(searching), searching))
