@@ -3,11 +3,7 @@ from time import time
 import timeit
 from datetime import datetime
 
-mysetup = """
-from random import randint
-import timeit"""
 
-my_code = """
 def gen_random_list():
     list_example = []
     while(len(list_example) < 6):
@@ -36,7 +32,7 @@ def sorting_selection(list_to_sort):
     # print(list_to_sort, "vorher")
     list_to_sort = temp_list_later
     # print(list_to_sort, "nachher")
-    return final
+    return final, list_to_sort
 
 
 def searching_insertion(list_to_sort):
@@ -47,7 +43,7 @@ def searching_insertion(list_to_sort):
         for o in range(i):
             if list_temp[i] < list_temp[o]:
                 swap(list_temp, i, o)
-    return list_temp
+    return list_temp, list_to_sort
         
 def swap(list, index1, index2):
     if index1 > len(list) or index2 > len(list):
@@ -61,36 +57,35 @@ def swap(list, index1, index2):
 def bubble_rise(list_to_sort):
     list_temp = list_to_sort
     # print(list_temp)
-    swapped = 1
     for i in range(len(list_temp)):
         # print("i", i)
         for o in range((len(list_temp) - i)):
             # print("o", o)
-            print(swapped)
+            # print(swapped)
             if i > 0:
-                if swapped:
-                    if list_temp[o] > list_temp[o + 1]:
-                        print("swap")
-                        swap(list_temp, o, o + 1)
-                        swapped = 1
-                    else:
-                        swapped = 0
-                    print(list_temp)
+                    if list_not_in_order(list_temp):
+                        if list_temp[o] > list_temp[o + 1]:
+                            print("swap")
+                            swap(list_temp, o, o + 1)
+                            swapped = 1
+                        print(list_temp)
 
 
     return list_temp
 
-[2,434,6574,43,6,5,78,53,45,3,745,567,5,45,2,7]
-print(sorting_selection([23,625,234624,234,2463568,57,8,421]))
-"""
+def list_not_in_order(list):
+    counter = 0
+    for i in range(len(list)-1):
+        
+        if list[i] < list[ i + 1]:
+            counter +=1
+    print(counter)
+    if counter == len(list):
+        return False
+    else:
+        return True
 
+# [2,434,6574,43,6,5,78,53,45,3,745,567,5,45,2,7]
+# print(bubble_rise([1,2,3,4,5,7,6,8,9,10,12,11, 13, 89, 13,25,64,23]))
 
-time_val = timeit.timeit(setup = mysetup, stmt= my_code, number = 100000)
-now = datetime.now()
-
-current_sec = now.strftime("%S")
-current_min = now.strftime("%M")
-
-file1 = open("messdaten.txt", "a")
-file1.write(str(time_val) + " time M:" + current_min + " S: " + current_sec + "\n")
-file1.close()
+print(list_not_in_order([1,2,3,4,6]))
