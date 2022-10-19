@@ -1,19 +1,21 @@
-import timeit
-
-mysetup=""""""
-
-mycode = """
-a = 10000
-val = 0
-for i in range(a):
-    if i == 0:
-        val = 1
-        continue
-    val = val * i
-# print(val)
-"""
-print(timeit.timeit(setup = mysetup, stmt = mycode, number = 1000))
 
 
+from random import randint
 
+
+def oscilation_upper_case(temp_string):
+    final_str = ""
+    for i in range(len(temp_string)):
+        if randint(0, 2) == 2:
+            letter = str(temp_string[i]).upper()
+            print(letter)
+            final_str += letter
+        else:
+            final_str += temp_string[i]
+    return final_str
+
+
+
+print(oscilation_upper_case("qwertzuiop"))
+# print("hallo".upper())
 
