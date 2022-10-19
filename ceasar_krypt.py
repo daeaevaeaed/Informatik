@@ -19,18 +19,7 @@ def verschlüsseln(string, key):
 
 
 def entschüsseln(string, key):
-    final_str = ""
-    for a in string:
-        if a == " ":
-            final_str += " "
-            continue
-        if a.isupper():
-            print("upper")
-            final_str += clear[(clear.index(a.lower()) - key) % 26].upper()
-        else:
-            final_str += clear[(clear.index(a) - key) % 26]
-    print(final_str)
-    return final_str
+    return verschlüsseln(string, -key)
 
 # print(verschlüsseln("hallo", 2))
 # key = int(input("Welchen Schlüssel möchtest du anwenden"))
