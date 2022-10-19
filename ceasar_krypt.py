@@ -23,4 +23,5 @@ def entschüsseln(string, key):
 
 # print(verschlüsseln("hallo", 2))
 # key = int(input("Welchen Schlüssel möchtest du anwenden"))
-print(entschüsseln(verschlüsseln("Guten Tag", 1), 1), "final")
+key = int(input("key"))
+print(entschüsseln(verschlüsseln("Guten Tag", key), key), "final")
