@@ -47,4 +47,4 @@ def entschüsseln_c(string, key, enable):
 
 text = verschlüsseln_c("Ich bin ein Baum", "132", True)
 print(text)
-print(entschüsseln_c(text, "132", False))
+print(entschüsseln_c(text, "132", False))kj
