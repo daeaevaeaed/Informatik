@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GraphAlgo_DominatingSetBacktracking
+comment0.text=\r\n\ Dieser\ Algorithmus\ bestimmt\ die\ kleinste\ dominierende\ Menge\ in\ einem\ Graphen\r\n\ und\ bestimmt\ den\ Zeitbedarf.\r\n\ Algorithmus\:\ Backtracking\r\n\r\n\ @version\ 1.0\ from\ 10.12.2020\r\n\ @author\ Thomas\ Schaller\r\n
+comment1.params=
+comment1.target=java.lang.String\ getBezeichnung()
+comment2.params=
+comment2.target=void\ fuehreAlgorithmusAus()
+comment3.params=knoten
+comment3.target=void\ bestimmeDominierendeMenge(int)
+numComments=4

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GraphAlgo_TiefensucheRek
+comment0.text=\r\n\ Dieser\ Algorithmus\ nummeriert\ alle\ Knoten\ des\ Graphen.\r\n\ Algorithmus\:\ Tiefensuche\ rekursiv\r\n\r\n\ @version\ 1.0\ from\ 10.12.2020\r\n\ @author\ Thomas\ Schaller\r\n
+comment1.params=
+comment1.target=java.lang.String\ getBezeichnung()
+comment2.params=
+comment2.target=void\ fuehreAlgorithmusAus()
+comment3.params=k\ nr
+comment3.target=int\ nummeriere(graph.Knoten,\ int)
+numComments=4

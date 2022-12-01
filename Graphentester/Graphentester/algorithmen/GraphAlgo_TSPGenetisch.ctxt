@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=GraphAlgo_TSPGenetisch
+comment0.text=\r\n\r\n\ description\r\n\r\n\ @version\ 1.0\ from\ 26.04.2019\r\n\ @author\ \r\n
+comment1.params=
+comment1.target=java.lang.String\ getBezeichnung()
+comment2.params=
+comment2.target=void\ fuehreAlgorithmusAus()
+comment3.params=
+comment3.target=int[]\ erzeugeZufaelligeRundreise()
+comment4.params=rr1\ rr2
+comment4.target=int[]\ kreuze(int[],\ int[])
+comment5.params=rr
+comment5.target=int[]\ mutiere(int[])
+comment6.params=rr
+comment6.target=int[]\ mutiere2(int[])
+comment7.params=rundreise
+comment7.target=void\ showRundreise(int[])
+comment8.params=rundreise
+comment8.target=double\ getLaenge(int[])
+comment9.params=
+comment9.target=java.lang.String\ getInfo()
+numComments=10

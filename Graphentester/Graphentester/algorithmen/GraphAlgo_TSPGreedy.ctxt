@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GraphAlgo_TSPGreedy
+comment0.text=\r\n\r\n\ Dieser\ Algorithmus\ sucht\ einen\ m\u00F6glichst\ kurzen\ Hamilton-Kreis\ (Traveling\r\n\ Salesman\ Problem).\r\n\ Algorithmus\:\ Greedy\r\n\ Strategie\:\ Verl\u00E4ngere\ den\ Weg\ immer\ mit\ der\ k\u00FCrzesten\ Kante,\ die\ vom\ aktuellen\ Ende\ der\ Route\ ausgeht.\r\n\ vlg.\ Minimal\ Spanning\ Tree\ (Prim)\r\n\r\n\ @version\ 1.0\ from\ 11.12.2020\r\n\ @author\ Thomas\ Schaller\r\n
+comment1.params=
+comment1.target=java.lang.String\ getBezeichnung()
+comment2.params=
+comment2.target=void\ fuehreAlgorithmusAus()
+comment3.params=
+comment3.target=java.lang.String\ getInfo()
+numComments=4

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=GraphAlgo_DominatingSetGreedyG
+comment0.text=\r\n\ Dieser\ Algorithmus\ bestimmt\ die\ kleinste\ dominierende\ Menge\ in\ einem\ Graphen\r\n\ und\ bestimmt\ den\ Zeitbedarf.\r\n\ Algorithmus\:\ Greedy\ mit\ Strategie\:\r\n\ \ ein\ nicht\ abgedeckten\ Knoten,\ der\ von\ einem\ beliebigen\ schon\ ausgew\u00E4hlten\ Knoten\ die\ Entfernung\ 3\ hat\r\n\r\n\ @version\ 1.0\ from\ 10.12.2020\r\n\ @author\ Thomas\ Schaller\r\n
+comment1.params=
+comment1.target=java.lang.String\ getBezeichnung()
+comment2.params=
+comment2.target=graph.Knoten\ bestimmeBesten()
+comment2.text=\ Bestimmt\ besten\ Knoten\ nach\ Strategie\:\r\n\ \ ein\ nicht\ abgedeckten\ Knoten,\ der\ von\ einem\ beliebigen\ schon\ ausgew\u00E4hlten\ Knoten\ die\ Entfernung\ 3\ hat\r\n
+comment3.params=
+comment3.target=void\ fuehreAlgorithmusAus()
+numComments=4

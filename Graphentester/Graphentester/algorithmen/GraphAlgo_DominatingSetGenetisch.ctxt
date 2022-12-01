@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=GraphAlgo_DominatingSetGenetisch
+comment0.text=\r\n\ Dieser\ Algorithmus\ bestimmt\ die\ kleinste\ dominierende\ Menge\ in\ einem\ Graphen\r\n\ und\ bestimmt\ den\ Zeitbedarf.\r\n\ Algorithmus\:\ Genetischer\ Algorithmus\r\n\ @version\ 1.0\ from\ 10.12.2020\r\n\ @author\ Thomas\ Schaller\r\n
+comment1.params=
+comment1.target=java.lang.String\ getBezeichnung()
+comment2.params=
+comment2.target=void\ fuehreAlgorithmusAus()
+comment3.params=
+comment3.target=int[]\ erzeugeZufaelligeTeilmenge()
+comment4.params=tm1\ tm2
+comment4.target=int[]\ kreuze(int[],\ int[])
+comment5.params=tm
+comment5.target=int[]\ mutiere(int[])
+comment6.params=tm
+comment6.target=void\ showTeilmenge(int[])
+comment7.params=tm
+comment7.target=double\ getBewertung(int[])
+numComments=8

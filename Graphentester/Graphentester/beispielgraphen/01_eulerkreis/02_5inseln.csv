@@ -1,0 +1,22 @@
+# Anzeigeoptionen:# Gewichte anzeigen 1, Gewichte nicht anzeigen 0
+showWeights,0
+# Knoteninfo anzeigen 1,Knoteninfo nicht anzeigen 0
+showInfoText,1
+# Knoten leer 0, Knotenname anzeigen 1, Wert des Knoten anzeigen 2
+vertexStyle,2
+# Bild im Hintergrund (bitte im "images"-Ordner ablegen) --> Dateiname angeben. Fall kein Bild bitte 0 schreiben!
+image,inseln5.png
+#
+# Graph:
+# gewichtet 1, ungewichtet 0
+weighted,0
+# gerichtet 1, ungerichtet 0
+directed,0
+# Der Graph liegt hier in Form einer Adjazenzliste vor.
+# Jede Zeile steht fuer einen Knoten, durch Komma getrennt steht der adjazente Knoten mit dem zugehoerigen Kantengewicht.
+list
+196,130,4,1
+319,168,0,3,4,2
+403,199,1,4
+312,284,1,4
+199,225,0,1,2,3

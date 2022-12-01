@@ -1,0 +1,45 @@
+# Anzeigeoptionen:# Gewichte anzeigen 1, Gewichte nicht anzeigen 0
+showWeights,0
+# Knoteninfo anzeigen 1,Knoteninfo nicht anzeigen 0
+showInfoText,1
+# Knoten leer 0, Knotenname anzeigen 1, Wert des Knoten anzeigen 2
+vertexStyle,2
+# Bild im Hintergrund (bitte im "images"-Ordner ablegen) --> Dateiname angeben. Fall kein Bild bitte 0 schreiben!
+image,0
+#
+# Graph:
+# gewichtet 1, ungewichtet 0
+weighted,0
+# gerichtet 1, ungerichtet 0
+directed,0
+# Der Graph liegt hier in Form einer Adjazenzliste vor.
+# Jede Zeile steht fuer einen Knoten, durch Komma getrennt steht der adjazente Knoten mit dem zugehoerigen Kantengewicht.
+list,infotext
+*,123,150,17,18,19,20
+*,412,130,21,22
+*,361,360,12,9,14,13
+*,153,366,15,16
+*,174,540,7,8,6
+*,654,374,11,23,24,25,26,10,27
+,91,486,4,14,7,16
+,249,484,4,6,14,9
+,294,541,4,9,10,27
+,359,467,2,7,8,10,14
+,513,461,5,8,9,11,27
+,519,362,5,10,12
+,466,289,2,11,23,22
+,305,250,2,20,15,14,22
+,283,382,2,6,7,9,13,15
+,188,302,3,13,14
+,51,252,3,6,17,20
+,61,147,0,16,18
+,76,69,0,17,19
+,203,69,0,18,20,21
+,273,165,0,13,16,19,21
+,421,55,1,19,20,22
+,546,117,1,12,13,21,23,24
+,614,259,5,12,22,24
+,696,294,5,22,23,25
+,730,400,5,24,26
+,725,543,5,25,27
+,643,523,5,8,10,26

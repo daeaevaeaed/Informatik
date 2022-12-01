@@ -1,0 +1,30 @@
+# Anzeigeoptionen:# Gewichte anzeigen 1, Gewichte nicht anzeigen 0
+showWeights,1
+# Größe der Knoten
+vertexSize,10
+# Knoteninfo anzeigen 1,Knoteninfo nicht anzeigen 0
+showInfoText,1
+# Knoten leer 0, Knotenname anzeigen 1, Wert des Knoten anzeigen 2
+vertexStyle,0
+# Kantenfarben: Farbbeschreibung (z.B. red) oder RGB-Hexcode (z.B. #FF0000) oder invisible
+# Reihenfolge: normale Kanten, markierte Kanten, gelöschte Kanten
+edgeColor,invisible,FF0000,A0A0A0
+# Knotenfarben: Farbbeschreibung (z.B. red) oder RGB-Hexcode (z.B. #FF0000) oder invisible
+# Reihenfolge: markiert (+1), besucht(+2), beendet(+4), z.B. markiert+beender=>6.Farbe 
+vertexColor,A0A0A0,FF0000,FFFF00,00FFFF,AA00AA,888800,008888,880088,00a0FF,a400FF,FFa400,FF00a4,00FFa4,a4FF00
+# Bild im Hintergrund (bitte im "images"-Ordner ablegen) --> Dateiname angeben. Fall kein Bild bitte 0 schreiben!
+image,deutschland_bundeslaende_bunt.png
+#
+# Graph:
+# gewichtet 1, ungewichtet 0
+weighted,1
+# gerichtet 1, ungerichtet 0
+directed,0
+# Der Graph liegt hier in Form einer Adjazenzmatrix vor. 
+# Jede Zeile steht fuer einen Knoten, durch Kommas getrennt stehen die Kantengewicht zu jedem anderen Knoten.
+matrix,infotext
+Aachen,25,415,-,570.0,532.0,637.0,369.0
+Augsburg,322,655,-,-,239.0,593.0,715.0
+Bayreuth,358,502,-,-,-,352.0,572.0
+Berlin,457,250,-,-,-,-,375.0
+Bremen,192,196,-,-,-,-,-

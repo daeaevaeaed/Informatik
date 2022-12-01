@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GraphAlgo_ColoringBacktracking
+comment0.text=\r\n\ Dieser\ Algorithmus\ f\u00E4rbt\ einen\ Graphen,\ so\ dass\ keine\ benachbarten\ Knoten\r\n\ die\ gleiche\ Farbe\ haben\ und\ m\u00F6glichst\ wenige\ Farben\ benutzt\ werden.\r\n\ Algorithmus\:\ Backtracking\r\n\r\n\ @version\ 1.0\ from\ 10.12.2020\r\n\ @author\ Thomas\ Schaller\r\n
+comment1.params=
+comment1.target=java.lang.String\ getBezeichnung()
+comment2.params=
+comment2.target=void\ fuehreAlgorithmusAus()
+comment3.params=benutzteFarben
+comment3.target=void\ bestimmeColoring(int)
+numComments=4

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=GraphAlgo_ColoringGreedyRandom
+comment0.text=\r\n\ Dieser\ Algorithmus\ f\u00E4rbt\ einen\ Graphen,\ so\ dass\ keine\ benachbarten\ Knoten\r\n\ die\ gleiche\ Farbe\ haben\ und\ m\u00F6glichst\ wenige\ Farben\ benutzt\ werden.\r\n\ Algorithmus\:\ N\u00E4herungsl\u00F6sung\ mit\ Greedy-Algorithmus\ (Knotenreihenfolge\ zuf\u00E4llig)\r\n\r\n\ @version\ 1.0\ from\ 10.12.2020\r\n\ @author\ Thomas\ Schaller\r\n
+comment1.params=
+comment1.target=java.lang.String\ getBezeichnung()
+comment2.params=
+comment2.target=void\ fuehreAlgorithmusAus()
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GraphAlgo_ZyklusBacktracking
+comment0.text=\r\n\ Dieser\ Algorithmus\ ist\ ein\ Beispiel\ f\u00FCr\ einen\ Backtracking-Algorithmus.\r\n\ Er\ sucht\ einen\ Zyklus\ im\ Graphen.\r\n\ Algorithmus\:\ Backtracking\r\n\r\n\ @version\ 1.0\ from\ 10.12.2020\r\n\ @author\ Thomas\ Schaller\r\n
+comment1.params=
+comment1.target=java.lang.String\ getBezeichnung()
+comment2.params=
+comment2.target=void\ fuehreAlgorithmusAus()
+comment3.params=k
+comment3.target=java.util.List\ backtracking(graph.Knoten)
+numComments=4

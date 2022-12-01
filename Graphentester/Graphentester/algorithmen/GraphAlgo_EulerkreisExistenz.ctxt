@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=GraphAlgo_EulerkreisExistenz
+comment0.text=\r\n\ Dieser\ Algorithmus\ testet,\ ob\ ein\ Eulerkreis\ existiert.\r\n\ Algorithmus\:\ Zun\u00E4chst\ wird\ auf\ geraden\ Grad\ der\ Knoten\ getestet,\ danach\ \r\n\ mit\ Tiefensuche\ der\ Zusammenhang\ des\ Graphen\ \u00FCberpr\u00FCft.\r\n\r\n\ @version\ 1.0\ from\ 10.12.2020\r\n\ @author\ Thomas\ Schaller\r\n
+comment1.params=
+comment1.target=java.lang.String\ getBezeichnung()
+comment2.params=
+comment2.target=void\ fuehreAlgorithmusAus()
+numComments=3

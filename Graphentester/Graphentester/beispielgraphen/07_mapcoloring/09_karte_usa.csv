@@ -1,0 +1,72 @@
+# Anzeigeoptionen:# Gewichte anzeigen 1, Gewichte nicht anzeigen 0
+showWeights,0
+# Größe der Knoten
+vertexSize,19
+# Knoteninfo anzeigen 1,Knoteninfo nicht anzeigen 0
+showInfoText,1
+# Knoten leer 0, Knotenname anzeigen 1, Wert des Knoten anzeigen 2
+vertexStyle,0
+# Knotenfarben: RGB-Hexcode (z.B. FF0000) oder invisible
+# Reihenfolge: nichts, markiert, besucht, besucht und markiert
+# mind. 12 Farben müssen angegeben werden.vertexColor,A0A0A0,FF0000,FFFF00,00FFFF,AA00AA,888800,008888,880088,00a0FF,a400FF,FFa400,FF00a4,00FFa4,a4FF00
+# Bild im Hintergrund (bitte im "images"-Ordner ablegen) --> Dateiname angeben. Fall kein Bild bitte 0 schreiben!
+image,karte_usa.png
+#
+# Graph:
+# gewichtet 1, ungewichtet 0
+weighted,0
+# gerichtet 1, ungerichtet 0
+directed,0
+# Der Graph liegt hier in Form einer Adjazenzliste vor.
+# Jede Zeile steht fuer einen Knoten, durch Komma getrennt steht der adjazente Knoten mit dem zugehoerigen Kantengewicht.
+list
+154,82,1,2
+88,140,0,2,9,11
+199,160,0,1,3,4,9,10
+261,108,2,4,5,6
+310,213,2,3,6,7,8,10
+430,112,3,6,21
+446,190,3,4,5,7,20,21
+433,249,4,6,8,16,20
+328,326,4,7,10,13,15,16
+129,263,1,2,10,11,12
+228,297,2,4,8,9,12
+66,308,1,9,12
+205,413,9,10,11,13
+309,416,8,12,14
+480,480,13,15,17,18
+485,403,8,14,16,18,19
+474,333,7,8,15,19
+583,499,14,18,35
+578,416,14,15,17,19,30,35
+577,362,15,16,18,20,25,28,30
+557,249,6,7,19,21,22,25
+538,160,5,6,20,22
+623,196,20,21,23,25
+654,139,22
+700,207,26,27
+634,296,19,20,22,26,28
+686,289,24,25,27,28
+740,270,24,26,28,29,37
+706,353,19,25,26,27,29,30,49
+784,308,27,28,37,46,49
+681,389,18,19,28,31,33,34,35,49
+826,373,30,32,49
+807,421,31,33
+750,425,30,32,34,36
+694,484,30,33,35,36
+638,468,17,18,30,34
+791,527,33,34
+823,245,27,29,38,45,46
+861,186,37,39,42,43,45
+898,150,38,40,41,42
+920,163,39,41,42
+947,113,39,40
+918,186,38,39,40,43,44
+909,217,38,42,44
+943,203,42,43
+897,257,37,38,46
+850,280,29,37,45,49
+113,549
+333,607
+829,332,28,29,30,31,46

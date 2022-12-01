@@ -1,0 +1,51 @@
+# Anzeigeoptionen:# Gewichte anzeigen 1, Gewichte nicht anzeigen 0
+showWeights,0
+# Größe der Knoten
+vertexSize,17
+# Knoteninfo anzeigen 1,Knoteninfo nicht anzeigen 0
+showInfoText,1
+# Knoten leer 0, Knotenname anzeigen 1, Wert des Knoten anzeigen 2
+vertexStyle,0
+# Bild im Hintergrund (bitte im "images"-Ordner ablegen) --> Dateiname angeben. Fall kein Bild bitte 0 schreiben!
+image,eis2.png
+#
+# Graph:
+# gewichtet 1, ungewichtet 0
+weighted,0
+# gerichtet 1, ungerichtet 0
+directed,0
+# Der Graph liegt hier in Form einer Adjazenzliste vor.
+# Jede Zeile steht fuer einen Knoten, durch Komma getrennt steht der adjazente Knoten mit dem zugehoerigen Kantengewicht.
+list
+15,16,1,21
+112,15,0,15,2
+218,14,1,7,3
+328,13,2,4,6
+405,13,3,5
+406,80,4,10,6
+326,81,3,5,8,7
+223,80,2,6,13,14,15
+326,174,6,9,28,13
+366,174,8,10,12
+409,175,5,9,11
+416,232,10,31,12
+374,237,9,11,30
+222,175,7,8,27,17,14
+173,122,7,13,16
+111,82,1,7,16,20
+110,123,14,15,17
+109,174,13,16,26,18
+64,173,17,23,19
+63,129,18,20,22
+64,81,15,19,21
+16,80,0,20,22
+17,128,19,21,23
+18,172,18,22,24
+18,294,23,25
+109,294,24,29,26
+109,246,17,25,27
+221,246,13,26,28
+325,247,8,27,29
+327,296,25,28,30
+373,297,12,29,31
+416,294,11,30

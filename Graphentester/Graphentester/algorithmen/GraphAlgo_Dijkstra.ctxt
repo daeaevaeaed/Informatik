@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=GraphAlgo_Dijkstra
+comment0.text=\r\n\ Dieser\ Algorithmus\ findet\ die\ k\u00FCrzesten\ Pfade\ in\ einem\ gewichteten\ Graphen.\r\n\ Algorithmus\:\ Dijkstra\r\n\r\n\ @version\ 1.0\ from\ 10.12.2020\r\n\ @author\ Thomas\ Schaller\r\n
+comment1.params=
+comment1.target=java.lang.String\ getBezeichnung()
+comment2.params=
+comment2.target=void\ fuehreAlgorithmusAus()
+numComments=3

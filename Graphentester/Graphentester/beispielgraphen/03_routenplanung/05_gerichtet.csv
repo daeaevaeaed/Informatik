@@ -1,0 +1,30 @@
+# Anzeigeoptionen:# Gewichte anzeigen 1, Gewichte nicht anzeigen 0
+showWeights,1
+# Knoteninfo anzeigen 1,Knoteninfo nicht anzeigen 0
+showInfoText,0
+# Knoten leer 0, Knotenname anzeigen 1, Wert des Knoten anzeigen 2
+vertexStyle,2
+# Kantenfarben: RGB-Hexcode (z.B. FF0000) oder invisible
+# Reihenfolge: normale Kanten, markierte Kanten, gelöschte Kanten
+edgeColor,000000,FF0000,A0A0A0
+# Knotenfarben: RGB-Hexcode (z.B. FF0000) oder invisible
+# Reihenfolge: nichts, markiert, besucht, besucht und markiert
+# mind. 12 Farben müssen angegeben werden.vertexColor,A0A0A0,FF0000,FFFF00,00FFFF,AA00AA,888800,008888,880088
+# Bild im Hintergrund (bitte im "images"-Ordner ablegen) --> Dateiname angeben. Fall kein Bild bitte 0 schreiben!
+image,0
+#
+# Graph:
+# gewichtet 1, ungewichtet 0
+weighted,1
+# gerichtet 1, ungerichtet 0
+directed,1
+# Der Graph liegt hier in Form einer Adjazenzliste vor.
+# Jede Zeile steht fuer einen Knoten, durch Komma getrennt steht der adjazente Knoten mit dem zugehoerigen Kantengewicht.
+list
+130,30,2,5.0
+40,90,0,8.0,3,2.0,4,18.0
+220,90,1,10.0,3,3.0
+130,170,4,12.0,6,30.0
+40,230,5,4.0
+130,280,3,14.0,6,26.0
+220,230,2,16.0

@@ -1,0 +1,19 @@
+# Der Graph ist durch kommagetrennte Werte kodiert. Der Graph liegt hier in Form einer Adjazenzmatrix vor. Jede Zeile steht fuer einen Knoten, durch Komma getrennt steht der adjazente Knoten mit dem zugehoerigen Kantengewicht.
+#
+# Header:
+# gerichtet 1, ungerichtet 0
+directed,0
+# gewichtet 1, ungewichtet 0
+weighted,1
+# Knotenfarben
+vertextColor,A0A0A0,FF0000,0000FF,00FF00,FFFF00,00FFFF,FF00FF,FF8080
+#
+# Graph:
+matrix
+130,30,-,8.0,5.0,-,-,-,-
+40,90,8.0,-,10.0,2.0,18.0,-,-
+220,90,5.0,10.0,-,3.0,-,-,16.0
+130,170,-,2.0,3.0,-,12.0,14.0,30.0
+40,230,-,18.0,-,12.0,-,4.0,-
+130,280,-,-,-,14.0,4.0,-,26.0
+220,230,-,-,16.0,30.0,-,26.0,-

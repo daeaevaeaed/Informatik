@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=GraphAlgo_TSPGreedy2
+comment0.text=\r\n\r\n\ Dieser\ Algorithmus\ sucht\ einen\ m\u00F6glichst\ kurzen\ Hamilton-Kreis\ (Traveling\r\n\ Salesman\ Problem).\r\n\ Algorithmus\:\ Greedy\r\n\ Strategie\:\ Sortiere\ Kanten\ der\ L\u00E4nge\ nach.\ F\u00FCge\ sie\ der\ Reihe\ nach\ der\ Route\ hinzu,\ wenn\ nicht\ schon\ ein\r\n\ Weg\ zwischen\ den\ beiden\ Knoten\ vorhanden\ ist\ und\ die\ Knoten\ nicht\ schon\ Grad\ zwei\ erreicht\ haben.\r\n\ vgl.\ Minimal\ Spanning\ Tree\ (Kruskal)\r\n\r\n\ @version\ 1.0\ from\ 11.12.2020\r\n\ @author\ Thomas\ Schaller\r\n
+comment1.params=
+comment1.target=java.lang.String\ getBezeichnung()
+comment2.params=
+comment2.target=void\ fuehreAlgorithmusAus()
+comment3.params=k
+comment3.target=boolean\ istRoutenende(graph.Knoten)
+comment4.params=k
+comment4.target=int\ bestimmeGrad(graph.Knoten)
+comment5.params=
+comment5.target=java.lang.String\ getInfo()
+numComments=6
