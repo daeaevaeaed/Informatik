@@ -3,11 +3,12 @@ from time import time
 import timeit
 from datetime import datetime
 
-mysetup = """
+# mysetup = """
 from random import randint
-import timeit"""
+import timeit
+# """
 
-my_code = """
+# my_code = """
 def gen_random_list():
     list_example = []
     while(len(list_example) < 6):
@@ -68,6 +69,7 @@ def bubble_rise(list_to_sort):
             # print("o", o)
             print(swapped)
             if i > 0:
+                swapped = 1
                 if swapped:
                     if list_temp[o] > list_temp[o + 1]:
                         print("swap")
@@ -80,17 +82,17 @@ def bubble_rise(list_to_sort):
 
     return list_temp
 
-[2,434,6574,43,6,5,78,53,45,3,745,567,5,45,2,7]
-print(sorting_selection([23,625,234624,234,2463568,57,8,421]))
-"""
+# [2,434,6574,43,6,5,78,53,45,3,745,567,5,45,2,7]
+print(bubble_rise([23,625,234624,234,2463568,57,8,421]))
+# """
 
 
-time_val = timeit.timeit(setup = mysetup, stmt= my_code, number = 100000)
-now = datetime.now()
+# time_val = timeit.timeit(setup = mysetup, stmt= my_code, number = 100000)
+# now = datetime.now()
 
-current_sec = now.strftime("%S")
-current_min = now.strftime("%M")
+# current_sec = now.strftime("%S")
+# current_min = now.strftime("%M")
 
-file1 = open("messdaten.txt", "a")
-file1.write(str(time_val) + " time M:" + current_min + " S: " + current_sec + "\n")
-file1.close()
+# file1 = open("messdaten.txt", "a")
+# file1.write(str(time_val) + " time M:" + current_min + " S: " + current_sec + "\n")
+# file1.close()

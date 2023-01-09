@@ -7,4 +7,4 @@ mycode = """
 sleep(5000)
 """
 
-print(timeit.timeit(setup = mysetup, stmt= mycode, number = 100000000))
+print(timeit.timeit(setup = mysetup, stmt= mycode, number = 100))
